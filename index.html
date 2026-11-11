@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Index</title>
+	<style>
+	.container{
+	font-family: arial;
+	width: 100%;
+}
+	
+
+.logo{
+	width: 150px;
+	height: 150px;
+}
+
+
+.footer{
+	border-radius: 5px;
+	color: white;
+	background: midnightblue;
+	text-align: center;
+	padding: 10px;
+	font-family: arial;
+	font-size: 200%;
+}
+
+.sidebar {
+	top: 0px;
+	position: sticky;
+	padding: 5px;
+	background: midnightblue;
+	border-radius: 5px;
+}
+.logo-img {
+    height: 60px; /* Sesuaikan tinggi gambar logo Anda */
+    width: auto;
+}
+.isi-sidebar:hover{
+	background: lightblue;
+	border-radius: 10px;
+}
+.isi-sidebar{
+	font-size: 125%;
+	text-decoration: none;
+	font-family: arial;
+	color: white ;
+	padding: 10px;
+	float: right;
+}
+
+.banner{
+
+	border-radius: 10px;
+}
+.bnr{
+	width: 100%;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+.about-section {
+    display: flex;
+    align-items: center; /* Mengubah flex-start menjadi center agar sejajar di tengah */
+    justify-content: space-between;
+    padding: 50px 8%;
+    background-color: lightgray;
+    gap: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+/* Kolom Kiri - Teks */
+.about-text {
+    flex: 1.2;
+}
+
+.about-title {
+    font-size: 32px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+
+.about-text p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.about-text h3 {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.about-text ul {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.about-text ul li {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #333333;
+    line-height: 1.8;
+}
+
+/* Kolom Kanan - Foto */
+.about-media {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0; /* Hapus margin-top jika ada agar tidak terdorong turun */
+}
+
+.about-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsif Layar HP */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        padding: 30px 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.products-section {
+    display: flex;
+    flex-direction: column; /* Mengatur susunan bertumpuk dari atas ke bawah */
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;          /* Sesuaikan warna teks (putih jika latar gelap) */
+    background-color: #1a1a1a; /* Latar belakang gelap seperti pada referensi */
+}
+
+/* Gambar Banner di Atas */
+.product-banner {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Keterangan Teks di Bawah Gambar */
+.product-info {
+    width: 100%;
+    text-align: left;
+}
+
+.badge {
+    display: inline-block;
+    color: #3b82f6;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.product-info h2 {
+    font-size: 24px;
+    margin: 5px 0 15px 0;
+}
+
+.description {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+
+/* List Produk */
+.laptop-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.laptop-item h3 {
+    font-size: 16px;
+    margin: 0 0 4px 0;
+    color: #ffffff;
+}
+
+.laptop-item p {
+    font-size: 14px;
+    margin: 0;
+    color: #aaaaaa;
+}
+
+/* Section Keunggulan */
+.features-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.features-section ul {
+    padding-left: 20px;
+    margin: 0 0 25px 0;
+}
+
+.features-section ul li {
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 1.8;
+}
+
+.footer-tagline {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kontak {
+    grid-column: 1/3;
+    padding: 10px 20px;
+    background: darkgrey;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+
+.item-kontak {
+    display: flex;
+    align-items: center;
+    gap: 10px;        
+}
+
+.isi-kontak {
+    text-decoration: none;
+    font-family: arial;
+    color: black;
+    padding: 5px 10px;
+}
+
+.isi-kontak:hover {
+    background: lightgreen;
+    border-radius: 10px;
+
+}
+
+
+	</style>
+	<link rel="stylesheet" type="text/css" href="style.CSS">
+</head>
+<body>
+<div class="container">	
+	<div class="footer"><h2>Selamat Datang di Web Kami</h2></div>
+
+<div class="sidebar"
+><img src="ajamlogo.png" class="logo-img">
+		<a class="isi-sidebar" href="Pengumuman.html"><b>Pengumuman</b></a>	
+		<a class="isi-sidebar" href="SocialMedia.html"><b>Social Media</b></a>
+		</div>
+
+
+		<div class="banner">
+		<img class="bnr" src="banner.png">
+		</div>
+
+
+<section class="about-section">
+    <!-- Kolom Kiri: Teks About AJAM -->
+    <div class="about-text">
+        <h2 class="about-title">About Us</h2>
+        
+        <p>AJAM adalah brand teknologi yang berfokus pada penyediaan produk laptop berkualitas dengan desain modern, performa tinggi, dan teknologi terkini.</p>
+        
+        <p>Kami hadir untuk membantu pelajar, mahasiswa, pekerja, dan masyarakat dalam memenuhi kebutuhan teknologi sehari-hari.</p>
+        
+        <h3>Visi Kami</h3>
+        <p>Menjadi brand teknologi yang inovatif dan terpercaya dalam menghadirkan produk berkualitas.</p>
+        
+        <h3>Misi Kami</h3>
+        <ul>
+            <li>Menghadirkan laptop berkualitas.</li>
+            <li>Memberikan pelayanan terbaik.</li>
+            <li>Mengutamakan inovasi teknologi.</li>
+            <li>Membantu pelanggan berkembang melalui teknologi.</li>
+        </ul>
+    </div>
+
+    <!-- Kolom Kanan: Foto -->
+    <div class="about-media">
+        <img src="us.png" alt="AJAM Laptop" class="about-img">
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="products-section">
+    <!-- Gambar Produk / Banner Utama di Atas -->
+    <div class="product-banner">
+        <img src="produk.png" class="banner-img">
+    </div>
+
+    <!-- Teks Keterangan Produk di Bawah Gambar -->
+    <div class="product-info">
+        <span class="badge">OUR PRODUCTS</span>
+        <h2>AJAM &ndash; DREAM BIGGER</h2>
+        <p class="description">
+            Temukan berbagai pilihan laptop AJAM yang dirancang untuk memenuhi kebutuhan teknologi modern.
+        </p>
+
+        <!-- Daftar Pilihan Laptop -->
+        <div class="laptop-list">
+            <div class="laptop-item">
+                <h3>1. Laptop Standard</h3>
+                <p>Laptop untuk belajar, bekerja, dan aktivitas sehari-hari.</p>
+            </div>
+            <div class="laptop-item">
+                <h3>2. Laptop Gaming</h3>
+                <p>Laptop dengan performa tinggi untuk gaming dan multitasking.</p>
+            </div>
+            <div class="laptop-item">
+                <h3>3. Laptop 2-in-1</h3>
+                <p>Laptop fleksibel yang dapat digunakan sebagai tablet.</p>
+            </div>
+            <div class="laptop-item">
+                <h3>4. Laptop Ultrabook</h3>
+                <p>Laptop dengan desain tipis, ringan, dan elegan.</p>
+            </div>
+        </div>
+
+        <!-- Bagian Keunggulan -->
+        <div class="features-section">
+            <h3>KEUNGGULAN KAMI</h3>
+            <ul>
+                <li>Kualitas produk terbaik.</li>
+                <li>Desain modern dan elegan.</li>
+                <li>Performa yang andal.</li>
+                <li>Pelayanan profesional.</li>
+                <li>Garansi produk.</li>
+            </ul>
+        </div>
+
+        <p class="footer-tagline">AJAM &ndash; DREAM BIGGER.</p>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="kontak">
+    <div class="item-kontak">
+        <img src="whatsapp1.png" width="40">
+        <a class="isi-kontak" href="https://wa.me/6287780912136" target="_blank"><b>Whatsapp</b></a>
+    </div>
+    
+    <div class="item-kontak">
+        <img src="email.png" width="40">
+        <a class="isi-kontak" href="mailto:azzamathallah488@gmail.com"><b>Email</b></a>
+    </div>
+</div>
+</div>
+
+
+</body>
+</html> 
